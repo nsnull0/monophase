@@ -54,12 +54,14 @@
 
     &:hover,
     &:focus {
-      text-decoration: line-through;
+      color: var(--link-hover-color);
+      text-decoration: solid underline;
     }
   }
 
   a.current {
-    text-decoration: line-through;
+    color: var(--link-hover-color);
+    text-decoration: solid underline;
   }
 }
 
