@@ -3,7 +3,7 @@
 }
 
 body {
-  color: rgb(49,122,76);
+  color: var(--body-color);
   background: rgb(49,122,76);
   background: -moz-radial-gradient(circle, rgba(49,122,76,1) 0%, rgba(117,172,169,1) 100%);
   background: -webkit-radial-gradient(circle, rgba(49,122,76,1) 0%, rgba(117,172,169,1) 100%);
