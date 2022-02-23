@@ -4,11 +4,11 @@
 
 body {
   color: var(--body-color);
-  background: rgb(81,94,80);
-  background: -moz-linear-gradient(90deg, rgba(81,94,80,1) 0%, rgba(39,82,62,1) 50%, rgba(81,94,80,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(81,94,80,1) 0%, rgba(39,82,62,1) 50%, rgba(81,94,80,1) 100%);
-  background: linear-gradient(90deg, rgba(81,94,80,1) 0%, rgba(39,82,62,1) 50%, rgba(81,94,80,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#515e50",endColorstr="#515e50",GradientType=1);
+  background: rgb(33,37,41);
+  background: -moz-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
+  background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212529",endColorstr="#212529",GradientType=1);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
