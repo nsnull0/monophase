@@ -2,30 +2,30 @@
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+body {
+  color: var(--body-color);
+  background: rgb(33,37,41);
+  background: -moz-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
+  background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212529",endColorstr="#212529",GradientType=1);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}
+
+@media (prefers-color-scheme: light) {
   body {
     color: var(--body-color);
-    background: rgb(33,37,41);
-    background: -moz-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
-    background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(35,88,82,1) 50%, rgba(33,37,41,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212529",endColorstr="#212529",GradientType=1);
+    background: rgb(97,170,161);
+    background: -moz-radial-gradient(circle, rgba(97,170,161,1) 0%, rgba(201,223,223,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(97,170,161,1) 0%, rgba(201,223,223,1) 100%);
+    background: radial-gradient(circle, rgba(97,170,161,1) 0%, rgba(201,223,223,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#61aaa1",endColorstr="#c9dfdf",GradientType=1);
     font-family: var(--body-font-family);
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
   }
-}
-
-body.light-theme {
-  color: var(--body-color);
-  background: rgb(97,170,161);
-  background: -moz-radial-gradient(circle, rgba(97,170,161,1) 0%, rgba(201,223,223,1) 100%);
-  background: -webkit-radial-gradient(circle, rgba(97,170,161,1) 0%, rgba(201,223,223,1) 100%);
-  background: radial-gradient(circle, rgba(97,170,161,1) 0%, rgba(201,223,223,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#61aaa1",endColorstr="#c9dfdf",GradientType=1);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size);
-  line-height: var(--body-line-height);
 }
 
 a {
