@@ -2,8 +2,7 @@
 @import "base";
 @import "layout";
 @import "predefined";
+@import "highlight-dark";
 
 // @import "highlight-light";
-@media (prefers-color-scheme: dark) {
-  @import "highlight-dark";
-}
+@media (prefers-color-scheme: dark) {}
