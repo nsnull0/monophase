@@ -52,3 +52,22 @@ $xl-screen: 80rem;
     --danger-color: var(--oc-red-1);
   }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /**
+     * Color
+     */
+    --body-bg-color: var(--oc-gray-9);
+    --body-color: var(--oc-gray-4);
+    --code-bg-color: var(--oc-cyan-7);
+    --heading-color: var(--oc-white);
+    --border-color: var(--oc-cyan-7);
+    --link-color: var(--oc-cyan-4);
+    --link-color-rgb: var(--oc-cyan-4-rgb);
+    --link-hover-color: var(--oc-cyan-6);
+    --info-color: var(--oc-green-1);
+    --warning-color: var(--oc-yellow-1);
+    --danger-color: var(--oc-red-1);
+  }
+}
